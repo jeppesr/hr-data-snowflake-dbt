@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: hr_sys
+    database: HR  
+    schema: HR_BRONZE_PROD  
+    tables:
+      - name: AGE_GROUP
+      - name: EMPLOYEE
